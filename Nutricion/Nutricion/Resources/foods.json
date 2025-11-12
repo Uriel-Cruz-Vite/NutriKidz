@@ -1,0 +1,386 @@
+[
+  {
+    "id": "5f1a9e1e-4c2d-4f3f-9f0a-7c12a3d2b001",
+    "name": "Avena con leche y plátano",
+    "calories": 320,
+    "category": "Lácteo",
+    "ingredients": [
+      "3/4 taza de avena",
+      "1 taza de leche (o vegetal)",
+      "1 plátano en rodajas",
+      "1/2 cdta de canela",
+      "1 cdta de miel (opcional)"
+    ],
+    "steps": [
+      "Calienta la leche hasta que empiece a hervir suave.",
+      "Agrega la avena y cocina 5–7 min mezclando.",
+      "Sirve y añade plátano y canela.",
+      "Endulza al gusto con miel."
+    ]
+  },
+  {
+    "id": "c3ce9a9e-0c55-4d5d-8a7a-2f0f7b2d9002",
+    "name": "Molletes integrales con frijol y queso",
+    "calories": 380,
+    "category": "Pan",
+    "ingredients": [
+      "1 bolillo integral (abierto en mitades)",
+      "1/2 taza de frijoles refritos",
+      "60 g de queso Oaxaca o manchego",
+      "Pico de gallo al gusto"
+    ],
+    "steps": [
+      "Unta frijoles sobre cada mitad del bolillo.",
+      "Coloca el queso encima.",
+      "Gratina en horno o sartén tapado hasta fundir.",
+      "Sirve con pico de gallo."
+    ]
+  },
+  {
+    "id": "a4b7f1b8-2aa1-4f1f-8d1b-3e1fd0a7c003",
+    "name": "Huevos a la mexicana con tortillas",
+    "calories": 420,
+    "category": "Proteína",
+    "ingredients": [
+      "2 huevos",
+      "1 jitomate picado",
+      "1/4 cebolla picada",
+      "1/2 chile serrano picado",
+      "1 cdta de aceite",
+      "Sal al gusto",
+      "2 tortillas de maíz"
+    ],
+    "steps": [
+      "Sofríe cebolla, chile y jitomate en aceite.",
+      "Agrega los huevos batidos y sazona.",
+      "Cocina a tu punto de cocción.",
+      "Sirve con tortillas calientes."
+    ]
+  },
+  {
+    "id": "f6a1c2d3-4b5e-4c6d-91a2-7f8e9a0b0004",
+    "name": "Yogur natural con granola y fruta",
+    "calories": 300,
+    "category": "Lácteo",
+    "ingredients": [
+      "1 taza de yogur natural",
+      "1/3 taza de granola",
+      "1/2 taza de fruta en cubos (fresa, mango o manzana)"
+    ],
+    "steps": [
+      "Coloca el yogur en un tazón.",
+      "Añade la fruta por encima.",
+      "Termina con la granola justo antes de servir."
+    ]
+  },
+  {
+    "id": "0a9b8c7d-6e5f-4d3c-9b2a-1c0d9e8f0005",
+    "name": "Tostadas de aguacate y huevo",
+    "calories": 360,
+    "category": "Pan",
+    "ingredients": [
+      "2 rebanadas de pan integral tostado",
+      "1/2 aguacate",
+      "1 huevo cocido o estrellado",
+      "Sal y pimienta",
+      "Limón (opcional)"
+    ],
+    "steps": [
+      "Tritura el aguacate y sazona.",
+      "Unta sobre el pan tostado.",
+      "Coloca el huevo encima y ajusta sazón.",
+      "Agrega unas gotas de limón si deseas."
+    ]
+  },
+  {
+    "id": "1b2c3d4e-5f60-4718-8a90-1b2c3d4e0006",
+    "name": "Omelette de espinaca y queso panela",
+    "calories": 340,
+    "category": "Proteína",
+    "ingredients": [
+      "2 huevos batidos",
+      "1/2 taza de espinaca",
+      "60 g de queso panela en cubos",
+      "1 cdta de aceite",
+      "Sal y pimienta"
+    ],
+    "steps": [
+      "Saltea la espinaca en aceite 1–2 min.",
+      "Añade huevo batido y cocina a fuego medio.",
+      "Agrega el queso, dobla y termina cocción.",
+      "Sazona al gusto."
+    ]
+  },
+  {
+    "id": "2c3d4e5f-6071-4829-9ab1-2c3d4e5f0007",
+    "name": "Pollo asado con arroz y ensalada",
+    "calories": 550,
+    "category": "Proteína",
+    "ingredients": [
+      "150 g de pechuga de pollo",
+      "1/2 taza de arroz cocido",
+      "Ensalada verde (lechuga, pepino, jitomate)",
+      "1 cdta de aceite",
+      "Sal, pimienta y limón"
+    ],
+    "steps": [
+      "Sazona el pollo y ásalo en sartén con poco aceite.",
+      "Cuece o calienta el arroz.",
+      "Prepara la ensalada y sazona con limón.",
+      "Sirve pollo con arroz y ensalada."
+    ]
+  },
+  {
+    "id": "3d4e5f60-7182-493a-ab12-3d4e5f600008",
+    "name": "Pescado a la plancha con verduras y papa",
+    "calories": 520,
+    "category": "Proteína",
+    "ingredients": [
+      "150 g de filete de pescado",
+      "1 papa mediana",
+      "Verduras al vapor (zanahoria, calabacita)",
+      "1 cdta de aceite",
+      "Sal, pimienta y limón"
+    ],
+    "steps": [
+      "Cocina la papa (al horno o vapor) hasta suave.",
+      "Sazona y plancha el pescado 3–4 min por lado.",
+      "Cocina verduras al vapor.",
+      "Sirve todo con unas gotas de limón."
+    ]
+  },
+  {
+    "id": "4e5f6071-8293-4a3b-b123-4e5f60710009",
+    "name": "Tacos de res con nopales y salsa",
+    "calories": 600,
+    "category": "Grano",
+    "ingredients": [
+      "120 g de carne de res en tiras",
+      "2–3 tortillas de maíz",
+      "1/2 taza de nopales cocidos",
+      "Cebolla y cilantro",
+      "Salsa al gusto",
+      "Sal y pimienta"
+    ],
+    "steps": [
+      "Saltea la res y sazona.",
+      "Calienta tortillas.",
+      "Arma los tacos con nopales, cebolla y cilantro.",
+      "Acompaña con salsa."
+    ]
+  },
+  {
+    "id": "5f607182-93a4-4b3c-c234-5f607182000a",
+    "name": "Ensalada de atún con garbanzos y tortilla",
+    "calories": 480,
+    "category": "Leguminosa",
+    "ingredients": [
+      "1 lata de atún en agua (escurrida)",
+      "1/2 taza de garbanzos cocidos",
+      "Verdura picada (pepino, jitomate, cebolla morada)",
+      "1 cdta de aceite de oliva y limón",
+      "2 tortillas de maíz"
+    ],
+    "steps": [
+      "Mezcla atún con garbanzos y verduras.",
+      "Sazona con aceite de oliva, limón y sal.",
+      "Calienta tortillas y sirve a un lado."
+    ]
+  },
+  {
+    "id": "60718293-a4b5-4c3d-d345-60718293000b",
+    "name": "Enchiladas verdes de pollo",
+    "calories": 650,
+    "category": "Grano",
+    "ingredients": [
+      "3 tortillas de maíz",
+      "120 g de pollo deshebrado",
+      "Salsa verde",
+      "30 g de queso fresco",
+      "Crema ligera (opcional)"
+    ],
+    "steps": [
+      "Calienta tortillas y pásalas por salsa.",
+      "Rellena con pollo y enrolla.",
+      "Cubre con más salsa, queso y crema.",
+      "Sirve caliente."
+    ]
+  },
+  {
+    "id": "718293a4-b5c6-4d3e-e456-718293a4000c",
+    "name": "Pozole de pollo",
+    "calories": 600,
+    "category": "Grano",
+    "ingredients": [
+      "1 taza de maíz pozolero cocido",
+      "120 g de pollo deshebrado",
+      "Caldo y salsa verde o roja",
+      "Lechuga, rábano, cebolla",
+      "Orégano y limón"
+    ],
+    "steps": [
+      "Calienta el maíz con caldo y pollo.",
+      "Añade salsa al gusto.",
+      "Sirve y decora con lechuga, rábano y cebolla.",
+      "Aromatiza con orégano y limón."
+    ]
+  },
+  {
+    "id": "8293a4b5-c6d7-4e3f-f567-8293a4b5000d",
+    "name": "Bowl de frijoles con arroz",
+    "calories": 500,
+    "category": "Leguminosa",
+    "ingredients": [
+      "1/2 taza de frijoles cocidos",
+      "1/2 taza de arroz cocido",
+      "Pico de gallo",
+      "Aguacate en cubos",
+      "Queso fresco (opcional)"
+    ],
+    "steps": [
+      "Coloca arroz y frijoles en un tazón.",
+      "Agrega pico de gallo y aguacate.",
+      "Termina con queso si deseas."
+    ]
+  },
+  {
+    "id": "93a4b5c6-d7e8-4f30-a678-93a4b5c6000e",
+    "name": "Papas al horno con atún y ensalada",
+    "calories": 500,
+    "category": "Tubérculo",
+    "ingredients": [
+      "1 papa grande",
+      "1 lata de atún en agua (escurrida)",
+      "Ensalada verde sencilla",
+      "1 cdta de aceite de oliva",
+      "Sal y pimienta"
+    ],
+    "steps": [
+      "Hornea la papa hasta suave (o microondas).",
+      "Abre y rellena con atún sazonado.",
+      "Acompaña con ensalada verde."
+    ]
+  },
+  {
+    "id": "a4b5c6d7-e8f9-4031-b789-a4b5c6d7000f",
+    "name": "Sopa de verduras con queso panela",
+    "calories": 350,
+    "category": "Lácteo",
+    "ingredients": [
+      "Caldo de verduras",
+      "Verduras variadas en cubos",
+      "60 g de queso panela",
+      "Sal y pimienta"
+    ],
+    "steps": [
+      "Hierve las verduras en el caldo hasta suaves.",
+      "Sazona al gusto.",
+      "Sirve y agrega cubos de queso panela."
+    ]
+  },
+  {
+    "id": "b5c6d7e8-f9a0-4132-c890-b5c6d7e80010",
+    "name": "Quesadillas de queso y champiñones",
+    "calories": 420,
+    "category": "Grano",
+    "ingredients": [
+      "2 tortillas de maíz o trigo",
+      "60–80 g de queso",
+      "1/2 taza de champiñones en láminas",
+      "Cebolla al gusto"
+    ],
+    "steps": [
+      "Saltea champiñones y cebolla.",
+      "Rellena las tortillas con queso y salteado.",
+      "Dora en sartén hasta fundir el queso."
+    ]
+  },
+  {
+    "id": "c6d7e8f9-a0b1-4233-d901-c6d7e8f90011",
+    "name": "Crema de calabaza",
+    "calories": 300,
+    "category": "Lácteo",
+    "ingredients": [
+      "2 tazas de calabaza en cubos",
+      "1 taza de caldo",
+      "1/2 taza de leche",
+      "1 cdta de aceite",
+      "Sal y pimienta"
+    ],
+    "steps": [
+      "Sofríe la calabaza y cubre con caldo.",
+      "Cocina hasta suave y licúa con leche.",
+      "Regresa a la olla y ajusta sazón."
+    ]
+  },
+  {
+    "id": "d7e8f9a0-b1c2-4334-e012-d7e8f9a00012",
+    "name": "Sándwich integral de pavo y verduras",
+    "calories": 420,
+    "category": "Pan",
+    "ingredients": [
+      "2 rebanadas de pan integral",
+      "80 g de pechuga de pavo",
+      "Lechuga, jitomate, pepino",
+      "Mostaza o hummus"
+    ],
+    "steps": [
+      "Tuesta el pan si deseas.",
+      "Arma el sándwich con pavo y verduras.",
+      "Unta mostaza o hummus para dar sabor."
+    ]
+  },
+  {
+    "id": "e8f9a0b1-c2d3-4435-f123-e8f9a0b10013",
+    "name": "Frittata de verduras",
+    "calories": 380,
+    "category": "Proteína",
+    "ingredients": [
+      "2–3 huevos",
+      "Verduras picadas (pimiento, calabacita, cebolla)",
+      "1 cdta de aceite",
+      "Sal y pimienta"
+    ],
+    "steps": [
+      "Saltea las verduras en aceite.",
+      "Agrega los huevos batidos y sazona.",
+      "Cocina a fuego bajo hasta cuajar (o termina al horno)."
+    ]
+  },
+  {
+    "id": "f9a0b1c2-d3e4-4536-a234-f9a0b1c20014",
+    "name": "Sopa de lentejas",
+    "calories": 420,
+    "category": "Leguminosa",
+    "ingredients": [
+      "1 taza de lentejas (remojadas o cocidas)",
+      "Caldo suficiente",
+      "Verduras en cubos (zanahoria, apio)",
+      "Ajo y cebolla",
+      "Sal y pimienta"
+    ],
+    "steps": [
+      "Sofríe ajo y cebolla.",
+      "Añade lentejas y verduras con caldo.",
+      "Cocina hasta que todo esté suave.",
+      "Ajusta sazón al final."
+    ]
+  },
+  {
+    "id": "0b1c2d3e-e4f5-4637-b345-0b1c2d3e0015",
+    "name": "Tostadas de tinga de pollo",
+    "calories": 450,
+    "category": "Grano",
+    "ingredients": [
+      "2 tostadas horneadas",
+      "120 g de pollo deshebrado",
+      "Salsa de tinga (jitomate, chipotle, cebolla)",
+      "Lechuga y crema ligera (opcional)"
+    ],
+    "steps": [
+      "Cocina la tinga con pollo y salsa.",
+      "Sirve sobre tostadas.",
+      "Decora con lechuga y crema si deseas."
+    ]
+  }
+]
