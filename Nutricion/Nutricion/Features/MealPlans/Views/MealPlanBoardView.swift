@@ -104,13 +104,23 @@ struct MealPlanBoardView: View {
                     Spacer()
 
                     Button {
-                        vm.generateWeekPlan()
+                        // Usar la meta calórica del perfil para regenerar
+                        let target = profileVM.profile.dailyCaloriesPractical
+                        vm.generateWeekPlan(targetKcal: target)
                     } label: {
                         Label("Regenerar", systemImage: "arrow.clockwise")
                             .font(.body.weight(.semibold))
                     }
                     .buttonStyle(.borderedProminent)
                 }
+            }
+        }
+        .onAppear {
+            // Cargar perfil y, si tenemos kcal objetivo, regenerar plan acorde
+            profileVM.loadProfile()
+            let target = profileVM.profile.dailyCaloriesPractical
+            if target > 0 {
+                vm.generateWeekPlan(targetKcal: target)
             }
         }
     }
@@ -134,3 +144,4 @@ struct MealPlanBoardView: View {
 #Preview {
     MealPlanBoardView()
 }
+

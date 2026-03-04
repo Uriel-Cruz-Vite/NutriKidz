@@ -11,6 +11,7 @@ struct ProfileView: View {
     @StateObject private var vm = ProfileViewModel()
     @FocusState private var focusedField: Field?
     @State private var showSavedToast = false
+    @EnvironmentObject private var auth: AuthViewModel
 
     private enum Field: Hashable {
         case name, age, weight, height
@@ -194,6 +195,17 @@ struct ProfileView: View {
                 Spacer()
                 Button("Cerrar") { focusedField = nil }
             }
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button(role: .destructive) {
+                    // Opcional: limpiar datos locales del perfil
+                    clearForm()
+                    // Cerrar sesión con Firebase
+                    auth.signOut()
+                } label: {
+                    Label("Cerrar sesión", systemImage: "rectangle.portrait.and.arrow.right")
+                }
+                .tint(.red)
+            }
         }
         .overlay(alignment: .top) {
             if showSavedToast {
@@ -278,3 +290,4 @@ struct ProfileView: View {
 #Preview {
     NavigationStack { ProfileView() }
 }
+

@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5DA1B0EB2EF4FC15002C92AE /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5DA1B0EA2EF4FC15002C92AE /* FirebaseAnalytics */; };
+		5DA1B0FB2EF5131B002C92AE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5DA1B0FA2EF5131B002C92AE /* FirebaseAuth */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5DE5AB9B2EB00BF4000A4386 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DA1B0EB2EF4FC15002C92AE /* FirebaseAnalytics in Frameworks */,
+				5DA1B0FB2EF5131B002C92AE /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +79,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DA1B0F92EF5131B002C92AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5DE5AB842EB00BF1000A4386 = {
 			isa = PBXGroup;
 			children = (
 				5DE5AB8F2EB00BF1000A4386 /* Nutricion */,
 				5DE5AB9D2EB00BF4000A4386 /* NutricionTests */,
 				5DE5ABA72EB00BF4000A4386 /* NutricionUITests */,
+				5DA1B0F92EF5131B002C92AE /* Frameworks */,
 				5DE5AB8E2EB00BF1000A4386 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +127,8 @@
 			);
 			name = Nutricion;
 			packageProductDependencies = (
+				5DA1B0EA2EF4FC15002C92AE /* FirebaseAnalytics */,
+				5DA1B0FA2EF5131B002C92AE /* FirebaseAuth */,
 			);
 			productName = Nutricion;
 			productReference = 5DE5AB8D2EB00BF1000A4386 /* Nutricion.app */;
@@ -171,7 +188,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2600;
-				LastUpgradeCheck = 2600;
+				LastUpgradeCheck = 2610;
 				TargetAttributes = {
 					5DE5AB8C2EB00BF1000A4386 = {
 						CreatedOnToolsVersion = 26.0.1;
@@ -195,6 +212,9 @@
 			);
 			mainGroup = 5DE5AB842EB00BF1000A4386;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5DA1B0E92EF4FC15002C92AE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5DE5AB8E2EB00BF1000A4386 /* Products */;
 			projectDirPath = "";
@@ -328,6 +348,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -385,6 +406,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -410,7 +432,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pruebas.Nutricion;
+				PRODUCT_BUNDLE_IDENTIFIER = com.urielcruz.nutrikidz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -442,7 +464,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = pruebas.Nutricion;
+				PRODUCT_BUNDLE_IDENTIFIER = com.urielcruz.nutrikidz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -578,6 +600,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5DA1B0E92EF4FC15002C92AE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5DA1B0EA2EF4FC15002C92AE /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DA1B0E92EF4FC15002C92AE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		5DA1B0FA2EF5131B002C92AE /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DA1B0E92EF4FC15002C92AE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5DE5AB852EB00BF1000A4386 /* Project object */;
 }
